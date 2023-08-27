@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+.description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 0;
+}
+.card-title {
+  color: var(--dark);
+  font-weight: var(--text-medium);
+  font-size: var(--subsection-title);
+  line-height: 1.2;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+.card-text {
+  letter-spacing: 0.02em;
+}

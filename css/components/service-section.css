@@ -1,0 +1,11 @@
+@media screen and (max-width: 1157px) {
+    .service {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 1158px) {
+    .service {
+        padding: 0 0 120px 0;
+      }
+  }

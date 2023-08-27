@@ -1,0 +1,36 @@
+.section {
+  padding: 96px 0;
+}
+.section-list {
+  display: flex;
+}
+.section-title {  
+  margin-bottom: 72px;  
+  color: var(--dark);
+  font-size: var(--subtitle);
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 767px) {
+  .section-list {
+    flex-direction: column;
+    gap: 72px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .section-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section {
+    padding: 120px 0;
+  }
+  .section-list {
+    gap: 24px;
+  }  
+}

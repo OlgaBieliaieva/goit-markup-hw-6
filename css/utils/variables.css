@@ -1,0 +1,27 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --hover-brand: #404bbf;
+  --dark: #2e2f42;
+  --semi-dark: #434455;
+  --modal-form: #8e8f99;
+  --light: #f4f4fd;
+  --main-light: #ffffff;
+  --accent: #e7e9fc;
+  --font-primary: "Roboto", sans-serif;
+  --font-logo: "Raleway", sans-serif;
+  --text-regular: 400;
+  --text-medium: 500;
+  --text-bold: 700;
+  --text-extrabold: 800;
+  --text-black: 900;
+  --title: 56px;
+  --subtitle: 36px;
+  --subsection-title: 20px;
+  --text: 16px;
+  --logo: 18px;
+  --medium-text: 14px;
+  --small-text: 12px;
+  --breakpoint-mobile: 428px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1158px;
+}
